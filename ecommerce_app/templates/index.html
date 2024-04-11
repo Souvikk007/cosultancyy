@@ -1,0 +1,164 @@
+{% load static %}
+<!--INSTALL PILLOW AND DJANGO-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy</title>
+    <style>
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="../static/images/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="main">
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Offer related quotes</p>
+        <button>Shop now</button>
+
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="../static/images/care.png" alt="">
+            <h5>24x7 Customer support</h5>
+
+        </div>
+
+        <div class="fe-box">
+            <img src="../static/images/care.png" alt="">
+            <h5>24x7 Customer support</h5>
+
+        </div>
+
+        <div class="fe-box">
+            <img src="../static/images/care.png" alt="">
+            <h5>24x7 Customer support</h5>
+
+        </div>
+
+        <div class="fe-box">
+            <img src="../static/images/care.png" alt="">
+            <h5>24x7 Customer support</h5>
+
+        </div>
+
+        <div class="fe-box">
+            <img src="../static/images/care.png" alt="">
+            <h5>24x7 Customer support</h5>
+
+        </div>
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../static/images/prod.png" alt="">
+                <div class="des">
+                    <span>Brand</span>
+                    <h5>Product name</h5>
+                    <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Price</h4>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign up for regular updates </h4>
+            <p>Make your house brighter.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class=" section-p1">
+        <div class="col">
+            <!-- <img src="../static/images/logo1.png"alt=""> -->
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>LOCATION</p>
+            <p><strong>Phone:</strong>000000000</p>
+            <p><strong>Time:</strong>24x7</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Get to know us</h4>
+            <a href="#">About us</a>
+            <a href="#">Returns centre</a>
+            <a href="#">Privacy policies</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact us</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">cart</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col">
+            <h4>Payment Gateways</h4>
+        </div>
+
+        <!-- <div class="copyright">
+            <p>@2023 - banerjeeelectronicsconsultancyservices</p>
+        </div> -->
+
+    </footer>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
